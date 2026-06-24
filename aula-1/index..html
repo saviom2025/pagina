@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>aula 1 - primeiro html e CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecario">
+      <img src="./img/matheus.png" alt="" />
+
+      <h1>Matheus Sávio</h1>
+      <p>Estudante de Programação</p>
+    </header>
+    <main>
+      <div class="context">
+        <section class="about">
+          <h2>sobre mim</h2>
+          <p>
+            estudante de engenharia de software, sempre busco aprender algo novo
+          </p>
+          <p class="destaque">minha primeira pagina</p>
+        </section>
+        <section class="skills">
+          <h2>oque estou aprendendo:</h2>
+          <ul>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>resposibilidade</li>
+          </ul>
+        </section>
+        <section>
+          <h2>meus projetos</h2>
+          <div class="projet">
+            <article>
+              <div class="projeto-image projeto-1">
+                <h3>calculadora</h3>
+                <p>app de calculadora</p>
+                <a href="#">ver projeto</a>
+              </div>
+              <div class="projeto-image projeto-1">
+                <h3>lista de item</h3>
+                <p>app de calculadora</p>
+                <a href="#">ver projeto</a>
+              </div>
+              <div class="projeto-image projeto-1">
+                <h3>anota</h3>
+                <p>app de calculadora</p>
+                <a href="#">ver projeto</a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="contato">
+          <h2>contato</h2>
+          <p>entre em contato para conversa ou veja meu github</p>
+          <a href="https://github.com/saviom2025" target="_blank">github</a>
+          <button class="msg-button">enviar mensagem</button>
+          <form class="oculto forms">
+            <label for="name">nome:</label>
+            <input type="text" id="name" class="inputName" required />
+            <br />
+            <label for="email">email:</label>
+            <input type="email" id="email" class="inputEmail" required />
+            <br />
+            <label for="resumo">resumo:</label>
+
+            <textarea name="resumo" id="resumo"></textarea>
+            <br />
+            <button type="submit">enviar</button>
+          </form>
+        </section>
+        <footer>
+          <p>feito com html e CSS</p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

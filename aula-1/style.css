@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --cor-de-letra: #070581;
+  --cor-de-fundo-button: #4e8cff;
+  --espacamento-letra: 0.5rem;
+}
+body {
+  background-color: #f2f2f2;
+}
+img {
+  height: 9rem;
+  border-radius: 50%;
+}
+.cabecario {
+  display: flex;
+  /* mudar a maneira que o flex e exibido */
+  flex-direction: column;
+  /* colocar os item no centro */
+  align-items: center;
+  margin: 0 auto;
+}
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section {
+  background-color: #fff;
+  width: 50rem;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 0.1rem solid #232323;
+  border-radius: 1rem;
+}
+
+.destaque {
+  background-color: hsl(59, 85%, 60%);
+  padding: 1rem;
+  margin: 0.5rem 1rem 0 0;
+  border-left: solid 0.3rem hsl(59, 85%, 40%);
+}
+
+section h2 {
+  color: var(--cor-de-letra);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.skills li {
+  padding: 0.3rem;
+  background-color: #c7f8ff;
+  border-radius: 1rem;
+}
+.skills ul {
+  display: flex;
+  gap: 0.4rem;
+  list-style-type: none;
+  /* responsavel por quebra a linha quando não existema mais espaço */
+  flex-wrap: wrap;
+}
+.contato p {
+  /* espaço não fica colado com botão */
+  margin: 0 0 0.5rem 0;
+}
+.contato a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--cor-de-letra);
+  margin: 0 0.2rem 0 0;
+  padding: var(--espacamento-letra);
+}
+.msg-button {
+  text-transform: capitalize;
+  padding: var(--espacamento-letra);
+  color: var(--cor-de-letra);
+  background-color: var(--cor-de-fundo-button);
+  border: none;
+  border-radius: 0.4rem;
+}
+/* formualario */
+.forms label {
+  color: var(--cor-de-letra);
+  text-transform: uppercase;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputName,
+.inputEmail {
+  width: 20%;
+  padding: var(--espacamento-letra);
+}
+.oculto {
+  display: none;
+}
+.projet {
+  display: flex;
+}
