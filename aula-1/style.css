@@ -80,24 +80,6 @@ section h2 {
   border: none;
   border-radius: 0.4rem;
 }
-/* formualario */
-.forms label {
-  color: var(--cor-de-letra);
-  text-transform: uppercase;
-}
-.forms {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.inputName,
-.inputEmail {
-  width: 20%;
-  padding: var(--espacamento-letra);
-}
-.oculto {
-  display: none;
-}
 .projet {
   display: flex;
 }
