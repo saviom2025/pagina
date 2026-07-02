@@ -6,8 +6,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <ul class="menu">
+      <li><a href="#">inicio</a></li>
+      <li><a href="sobre.html">sobre</a></li>
+      <li><a href="#">formação</a></li>
+    </ul>
     <header class="cabecario">
-      <img src="./img/matheus.png" alt="" />
+      <img src="./img/foto_de_perfil.jpg" alt="" />
 
       <h1>Matheus Sávio</h1>
       <p>Estudante de Programação</p>
@@ -22,29 +27,27 @@
       </section>
       <section class="skills">
         <h2>oque estou aprendendo:</h2>
-        <ul>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>JavaScript</li>
-          <li>resposibilidade</li>
-        </ul>
+        <ul class="list-skills"></ul>
       </section>
       <section>
         <h2>meus projetos</h2>
-        <div class="projeto projeto-img">
+        <div class="projeto">
           <article>
+            <div class="projeto-img"></div>
             <h3>calcudora</h3>
 
             <p>uma calculadora html, css e js</p>
             <a href="#">ver o projeto</a>
           </article>
           <article>
+            <div class="projeto-img"></div>
             <h3>nota</h3>
 
             <p>um site para notas</p>
             <a href="#">ver o projeto</a>
           </article>
           <article>
+            <div class="projeto-img"></div>
             <h3>lista de comprar</h3>
             <p>uma lista de comprar com html, css e js</p>
             <a href="#">ver o projeto</a>
@@ -56,10 +59,24 @@
         <p>entre em contato para conversa ou veja meu github</p>
         <a href="https://github.com/saviom2025" target="_blank">github</a>
         <button class="msg-button">enviar mensagem</button>
+        <form class="formulario oculto">
+          <label for="nome">nome</label>
+          <input type="text" class="inputName" />
+          <label for="email">email</label>
+          <input type="email" class="inputName" />
+          <label for="messegem">mensagem</label>
+          <textarea name="mensagem" id="messegem" class="inputMsg"></textarea>
+          <div>
+            <input type="submit" class="submit-button" />
+          </div>
+        </form>
+        <p class="feedback"></p>
+        <!-- fim do form -->
       </section>
-      <footer>
-        <p>feito com html e CSS</p>
-      </footer>
     </main>
+    <footer>
+      <p>feito com html e CSS</p>
+    </footer>
+    <script src="./scritp/script.js"></script>
   </body>
 </html>

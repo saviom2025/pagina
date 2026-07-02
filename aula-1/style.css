@@ -86,7 +86,8 @@ section h2 {
   margin: 0 0.2rem 0 0;
   padding: var(--espacamento-letra);
 }
-.msg-button {
+.msg-button,
+.submit-button {
   text-transform: capitalize;
   padding: var(--espacamento-letra);
   color: var(--cor-de-letra);
@@ -102,30 +103,72 @@ section h2 {
   flex-wrap: wrap;
   justify-content: center;
   background: #fff;
+  overflow: hidden;
 }
 .projeto article {
   /* calcular a area do elemento para deixa propocional */
   flex: 1;
   display: flex;
-  border: 0.2rem solid var(--border-section);
-  border-radius: 0.4rem;
+  border: 0.1rem solid var(--border-section);
+  border-radius: 1rem;
   /* mudar o comportamento do flex */
   flex-direction: column;
 }
-.projeto,
-.projeto-img {
-  height: 9rem;
-}
-.projeto-img article {
-  /*  colocar um cor de fundo */
-  background: linear-gradient(135deg, #070581, #c7f8ff);
-  border-radius: 0.6rem;
+.projeto div {
+  height: 5rem;
+  background: linear-gradient(135deg, #070581, #4e8cff);
+  border-radius: 1rem 0 0 0;
 }
 .projeto article h3 {
   /* tamanho do texto */
   font-size: 1rem;
+  margin: 0 0 0 1rem;
 }
 .projeto article p {
   /* ajuste de altura */
   flex-grow: 1;
+  margin: 1rem 0 2rem 1rem;
+}
+.projeto a {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+}
+.oculto {
+  display: none;
+}
+.submit-button {
+  margin-top: 1rem;
+}
+.feedback-sucesso {
+  padding: 1rem;
+  margin: 0.3rem;
+  text-align: center;
+  background-color: rgba(76, 252, 76, 0.2);
+}
+.feedback-fechar {
+  padding: 0.2rem;
+  margin: 0.3rem;
+  width: 1.2rem;
+}
+.name {
+  text-transform: capitalize;
+}
+/* menu */
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  justify-content: right;
+  margin: 0 1rem 0 0;
+}
+.menu a {
+  text-decoration: none;
 }
