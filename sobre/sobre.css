@@ -3,6 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --cor-de-letra: #070581;
+  --cor-de-fundo-button: #4e8cff;
+  --espacamento-letra: 0.5rem;
+  --border-section: #e2e8f0;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -50,4 +56,32 @@ header {
 }
 .oculto {
   display: none;
+}
+.about h2 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: var(--cor-de-letra);
+}
+.about {
+  background-color: #fff;
+  border: 0.2rem solid #f2f2f2;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.about p {
+  margin-bottom: 1rem;
+}
+.about a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #070581;
+}
+.about button {
+  text-transform: capitalize;
+  padding: 0.5rem;
+  color: var(--cor-de-letra);
+  background-color: var(--cor-de-fundo-button);
+  border: none;
+  border-radius: 0.4rem;
+  color: #f2f2f2;
 }
