@@ -13,9 +13,13 @@
   display: flex;
   list-style: none;
   gap: 0.5rem;
-  margin: auto 1rem 0 0;
   justify-content: right;
+  margin: 0 1rem 0 0;
 }
+.menu a {
+  text-decoration: none;
+}
+
 body {
   background-color: #f2f2f2;
   font-family:
@@ -84,4 +88,21 @@ header {
   border: none;
   border-radius: 0.4rem;
   color: #f2f2f2;
+}
+.menu li {
+  background-color: #1c2ec9;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  justify-content: right;
+  margin: 0 1rem 0 0;
+}
+.menu a {
+  text-decoration: none;
+  color: #fff;
 }

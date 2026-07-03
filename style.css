@@ -162,6 +162,12 @@ footer {
   text-transform: capitalize;
 }
 /* menu */
+.menu li {
+  background-color: #1c2ec9;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
 .menu {
   display: flex;
   list-style: none;
@@ -171,4 +177,5 @@ footer {
 }
 .menu a {
   text-decoration: none;
+  color: #fff;
 }
