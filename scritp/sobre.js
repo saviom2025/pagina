@@ -4,10 +4,10 @@ console.log(button_ver_mais);
 button_ver_mais.addEventListener("click", () => {
   console.log("funcionar de verdade");
   gosto.classList.toggle("oculto");
-  if (button_ver_mais.classList.contains("oculto")) {
-    button_ver_mais.textContent = "test";
+  if (gosto.classList.contains("oculto")) {
+    button_ver_mais.textContent = "ver mais";
     console.log("cade minha frase");
   } else {
-    button_ver_mais.textContent = "mimiza";
+    button_ver_mais.textContent = "Minimizar";
   }
 });
